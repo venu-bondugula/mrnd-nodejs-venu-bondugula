@@ -9,7 +9,7 @@ router.get('/:id', function(req, res, next) {
 });
 
 router.post('/', function(req, res, next) {
-  //console.log(req.body);
+  console.log(req.body);
   arr.push(req.body);
   res.send(arr.length-1+"");
 });
